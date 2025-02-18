@@ -1,8 +1,6 @@
 /*  your css code here. If applicable */
 :root{
 	background-color:rgb(135, 206, 235);
-	width:50%;
-	padding:10px;
 }
 
  div :first-child{
@@ -13,15 +11,20 @@
  div :last-child{
 	color: red;
 }
-
+ul li{
+	width:50%;
+	padding:10px;
+}
+ul li :nth-child(1),
+ul li :nth-child(5),{
+	font-size:22px;
+}
  ul li:nth-child(1){
 	background-color:white;
-	 font-size:22px;
 }
 
  ul li:nth-child(5){
 	background-color:white;
-	 font-size:22px;
 }
 
  ul li:nth-child(2){
