@@ -11,6 +11,12 @@
  div :last-child{
 	color: red;
 }
+ul li:nth-child(1){
+	font-size:22px;
+}
+ul li:nth-child(5){
+	font-size:22px;
+}
 
  ul li:nth-child(1){
 	background-color:white;
